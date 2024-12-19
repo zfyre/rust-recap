@@ -1,6 +1,6 @@
 # rust-recap
 
-Welcome to RustyGrad! This repository documents my journey of learning the basics of Rust. I have compiled a little bit of everything necessary to get started with Rust programming.
+Welcome to Rust-Recap! This repository documents my journey of learning the basics of Rust. I have compiled a little bit of everything necessary to get started with Rust programming.
 
 ## Introduction
 
