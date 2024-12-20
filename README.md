@@ -9,7 +9,7 @@ Rust is a systems programming language that runs blazingly fast, prevents segfau
 ## Contents
 
 - [x] Basics of Rust
-- [ ] Structs, Enums and Matching
+- [ ] Structs, Enums and Matching (SEM)
 - [ ] Filesystem and Processes
 - [ ] Modules and Cargo
 - [ ] Standard Library Containers
