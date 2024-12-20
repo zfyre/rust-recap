@@ -30,4 +30,15 @@ fn main(){
     //But vec dump will not work on slices
     // dump1(slice); // panic
     dump2(slice);
+
+    // A little marco for initializing
+    let mut v = vec![984, 10, 49,5452, 20, 30, 30, 30];
+    dump1(&v);
+
+    // A few functions implemented on vectors
+    v.sort()    ; // sorts in place
+    dump1(&v);
+    v.dedup(); // removes duplicates
+    dump1(&v);
+
 }

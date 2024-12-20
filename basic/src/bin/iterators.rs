@@ -18,10 +18,13 @@ fn main(){
     for i in arr{
         println!("{}", i);
     }
+    // OR
     for i in arr.iter(){
         println!("{}", *i);
         println!("{}", i);
     }
+    
+    // slices will be converted implicitly to iterators...
     let slice = &arr;
     for i in slice {
         println!("{}", i);
