@@ -11,7 +11,7 @@ fn main(){
 
         // rs1 = &s1; // Adding this line will reassign the borrow and hence now no error!!
     }
-    println!("ref {}", rs1); // Will give an error!!
+    // println!("ref {}", rs1); // Will give an error!!
 
     // The scope of tmp is dropped while it was still borrowed by rs1!
 
