@@ -6,13 +6,13 @@
 
 #[derive(Debug)]
 struct A {
-    // s: &str, // will throw ERROR
+    // s: &str, // will throw ERROR because rust dont know till when the s will be available to memory
     s: &'static str,
 }
 
 impl A {
     // Using the lifetime in functions
-    fn how(i: u32) -> &'static str { // again we are returning a reference!!
+    fn how(i: u32) -> &'static str { // again we are returning a reference!! hence we need to specify the lifetime
         match i {
             0 => "none",
             1 => "one",
@@ -26,7 +26,7 @@ fn main(){
     };
     println!("{:?}", a);
 
-    println!("{}", A::how(5)) // How here is an associated function wrt the class not it's object beacuse self is not present
+    println!("{}", A::how(5)) // `how` here is an associated function wrt the class not it's object beacuse self is not present
     
 
 }

@@ -10,8 +10,14 @@ Rust is a systems programming language that runs blazingly fast, prevents segfau
 
 - [x] Basics of Rust
 - [ ] Structs, Enums and Matching (SEM)
+    - [x] Structs
+    - [x] Traits
+    - [x] Generic functions  
 - [ ] Filesystem and Processes
-- [ ] Modules and Cargo
+- [x] Modules and Cargo
+    - [x] Modules
+    - [x] Crates
+    - [x] Cargo
 - [ ] Standard Library Containers
 - [ ] Error Handling
 - [ ] Threads, Networking and Sharing
